@@ -1,0 +1,82 @@
+/*main styling (for mobile devices 350 and less)*/
+
+body {
+    background: lightgray;
+    font-family: 'Open Sans', sans-serif;  
+}
+
+h1 {
+    font-weight: 400;
+    
+}
+
+h3 {
+    color: #1ecefd;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+
+
+
+
+.box {
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(204,204,204,1);
+    border-radius: 15px;
+    padding-top: .05rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 1.5rem;
+    width: 400px;
+}
+
+
+button {
+    background: #505355;
+    border-radius: .8rem;
+    color:white;
+    width: 80%;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+button:hover {
+    background: #5BECD8;
+}
+
+
+
+input {
+    border-radius: .8rem;
+    border: 1px solid #505355;
+    padding:14px;
+    color: #505355;
+    font-family: 'Open Sans', sans-serif; 
+    justify-content: center;
+    margin-top: .25rem;
+    width: 100%;
+   
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*styling for devices over 768px*/
+@media only screen and (min-device-width : 768px) {
+    
+}
